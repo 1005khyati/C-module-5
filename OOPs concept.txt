@@ -1,0 +1,27 @@
+Constructor is a special member function and class
+is default
+never written with void
+name should be same as class name
+3 major type
+    	1, default 
+	2,parameterised
+	3, copy
+
+
+Inheritance:
+Single inheritance--> class Parent{public: };
+                      class child : public Parent{};
+		also possible :
+			    class child : public Parent,Neighbour{}; 
+                                     [Neighbour is another class]
+
+
+
+Polymorphism
+     1 Complile time : Function overloading ; Operator overloading : not possible on { (.) (.*) (::) (?:) }
+
+     2 Run time : overriding ==> Virtual class
+
+
+Virtual: is used to make imaginary part for compiler
+         in overriding always base or parent class is executed then the derived one
